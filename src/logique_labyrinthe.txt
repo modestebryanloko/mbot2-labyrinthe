@@ -1,0 +1,15 @@
+DEBUT
+Initialiser le robot et les capteurs
+
+TANT QUE la sortie n'est pas atteinte
+    Mesurer la distance
+    SI obstacle proche
+        Arrêter
+        Tourner vers une direction libre
+    SINON
+        Avancer
+    FIN SI
+FIN TANT QUE
+
+Arrêter le robot
+FIN
